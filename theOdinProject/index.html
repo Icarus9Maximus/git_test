@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="Assets/halie-west-25xggax4bSA-unsplash.jpg" alt="Wet leaves">
+        </div>
+        <div class="info-container">
+            <div class="first-text">
+            <p>This is not a real online service! You know you need something like 
+               this in your life to help you realize your deepest dreams. Sign up 
+               <span>now</span> to get started.
+            </p><br>
+            <p>You know you want to.</p>
+            </div>
+            <div class="form-info">
+                <form action="https://the-odin-project.com" method="get">
+                        <h2 class="form-heading">Let's do this!</h2>
+                        <div class="label-container">
+                            <div class="label-container1">
+                                <label for="first-name"> FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" class="form-input" required>
+                            </div>
+                            <div class="label-container2">
+                                <label for="last-name"> LAST NAME</label>
+                                <input type="text" name="last-name" id="last-name" class="form-input" required>
+                            </div>
+                            <div class="label-container3">
+                                <label for="email"> EMAIL</label>
+                                <input type="email" name="email" id="email" class="form-input" required>
+                            </div>
+                            <div class="label-container4">
+                                <label for="phone-number"> PHONE NUMBER</label>
+                                <input type="number" name="phone-number" id="phone-number" class="form-input phone-number" required>
+                            </div>
+                            <div class="label-container5">
+                                <label for="password-one"> PASSWORD</label>
+                                <input type="password" name="password-two" id="password-one" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" class="form-input password-one" required>
+                            </div>
+                            <div class="label-container6">
+                                <label for="password-two"> CONFIRM PASSWORD</label>
+                                <input type="password" name="password-two" id="password-two" class="form-input password-two" required>
+                            </div>
+                        </div>
+                </form>
+                <div class="color-image">
+                    <img src="./Assets/odin-lined (1).png" alt="The odin project logo">
+                </div>
+                <div class="text-box">
+                   <p>ODIN</p>
+                </div>
+                <div class="credit">
+                   <p>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+                </div>
+            </div>
+            <div class="button-space">
+                <button type="submit" class="account">Create Account</button>
+                <p>Already have an account? <a href="#" class="log-in">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
